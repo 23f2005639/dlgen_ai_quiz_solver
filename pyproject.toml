@@ -1,0 +1,13 @@
+[project]
+name = "dlgen-ai-quiz-solver"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faiss-cpu>=1.14.3",
+    "langchain-text-splitters>=1.1.2",
+    "requests>=2.34.2",
+    "sentence-transformers>=5.6.1",
+    "wikipedia>=1.4.0",
+]
