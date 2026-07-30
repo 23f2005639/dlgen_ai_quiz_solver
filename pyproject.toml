@@ -5,9 +5,22 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "accelerate>=1.14.0",
+    "datasets>=5.0.1",
     "faiss-cpu>=1.14.3",
     "langchain-text-splitters>=1.1.2",
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.1",
+    "pandas>=3.0.5",
+    "peft>=0.20.0",
+    "pyarrow>=25.0.0",
+    "pypdf>=6.14.2",
+    "reportlab>=5.0.0",
     "requests>=2.34.2",
+    "scikit-learn>=1.9.0",
     "sentence-transformers>=5.6.1",
+    "torch>=2.13.0",
+    "tqdm>=4.70.0",
+    "transformers>=5.14.1",
     "wikipedia>=1.4.0",
 ]
